@@ -10,3 +10,8 @@ Step 2. Run npm publish
 ```
 npm run publish
 ```
+
+# Notes
+electron-builder is used and not electron-packager
+
+The settings for build are in quasar.config.js under electron{builder:{}}
